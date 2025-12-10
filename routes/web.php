@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome');// muestra la vista welcom cuando se vidita la ruta raiz /
 })->name('home');
 
 Route::view('dashboard', 'dashboard')
